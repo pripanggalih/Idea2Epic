@@ -1,4 +1,4 @@
-# Product Dev Workflow
+# Idea to Epic Workflow AI Prompts
 
 A collection of AI prompts to transform ideas into development-ready Epics & Stories. Works with any AI platform (Perplexity, Google Gems, ChatGPT, Claude, etc.).
 
@@ -50,17 +50,18 @@ product-dev-workflow/
 
 ## The 5 Agents
 
-| # | Agent | Role | What It Does |
-|---|-------|------|--------------|
-| 1 | **Brainstorming** | Creative Facilitator | Explores ideas, identifies opportunities |
-| 2 | **Product Brief** | Business Analyst | Defines problem, solution, success metrics |
-| 3 | **PRD** | Product Manager | Documents requirements (FR/NFR) |
-| 4 | **Architecture** | Software Architect | Designs technical solution |
-| 5 | **Epics & Stories** | Product Owner | Creates implementation-ready stories |
+| #   | Agent               | Role                 | What It Does                               |
+| --- | ------------------- | -------------------- | ------------------------------------------ |
+| 1   | **Brainstorming**   | Creative Facilitator | Explores ideas, identifies opportunities   |
+| 2   | **Product Brief**   | Business Analyst     | Defines problem, solution, success metrics |
+| 3   | **PRD**             | Product Manager      | Documents requirements (FR/NFR)            |
+| 4   | **Architecture**    | Software Architect   | Designs technical solution                 |
+| 5   | **Epics & Stories** | Product Owner        | Creates implementation-ready stories       |
 
 ## How to Use
 
 ### Step 1: Brainstorming
+
 ```
 1. Set up Brainstorming Agent in your AI platform
 2. Provide your initial idea or problem
@@ -69,6 +70,7 @@ product-dev-workflow/
 ```
 
 ### Step 2: Product Brief
+
 ```
 1. Set up Product Brief Agent
 2. Paste your brainstorming output
@@ -77,6 +79,7 @@ product-dev-workflow/
 ```
 
 ### Step 3: PRD
+
 ```
 1. Set up PRD Agent
 2. Paste your Product Brief
@@ -85,6 +88,7 @@ product-dev-workflow/
 ```
 
 ### Step 4: Architecture
+
 ```
 1. Set up Architecture Agent
 2. Paste your PRD
@@ -93,6 +97,7 @@ product-dev-workflow/
 ```
 
 ### Step 5: Epics & Stories
+
 ```
 1. Set up Epics & Stories Agent
 2. Paste both PRD and Architecture docs
@@ -103,24 +108,28 @@ product-dev-workflow/
 ## Platform Setup
 
 ### Google Gems
+
 1. Gemini → Gems → Create Gem
 2. Paste prompt content into Instructions
 3. (Optional) Add supporting file
 4. Save and use
 
 ### Perplexity
+
 1. Start new conversation
 2. Attach or paste prompt file
 3. (Optional) Attach supporting file
 4. Begin session
 
 ### ChatGPT
+
 1. Explore GPTs → Create
 2. Paste prompt into Instructions
 3. (Optional) Upload supporting file to Knowledge
 4. Publish and use
 
 ### Claude
+
 1. Projects → New Project
 2. Add prompt to Project Knowledge
 3. (Optional) Add supporting file
@@ -138,13 +147,13 @@ product-dev-workflow/
 
 Each agent has a corresponding supporting file with additional context:
 
-| Agent | Supporting File | Contains |
-|-------|-----------------|----------|
-| Brainstorming | `01-brainstorming-techniques.md` | SCAMPER, Six Hats, Mind Mapping |
-| Product Brief | `02-product-brief-questions.md` | Discovery questions, metrics |
-| PRD | `03-prd-requirements-framework.md` | FR/NFR templates, user stories |
-| Architecture | `04-architecture-decision-framework.md` | ADR templates, tech evaluation |
-| Epics & Stories | `05-epics-stories-guide.md` | Story writing, WHAT vs HOW |
+| Agent           | Supporting File                         | Contains                        |
+| --------------- | --------------------------------------- | ------------------------------- |
+| Brainstorming   | `01-brainstorming-techniques.md`        | SCAMPER, Six Hats, Mind Mapping |
+| Product Brief   | `02-product-brief-questions.md`         | Discovery questions, metrics    |
+| PRD             | `03-prd-requirements-framework.md`      | FR/NFR templates, user stories  |
+| Architecture    | `04-architecture-decision-framework.md` | ADR templates, tech evaluation  |
+| Epics & Stories | `05-epics-stories-guide.md`             | Story writing, WHAT vs HOW      |
 
 Attaching these files improves output quality but is optional.
 
@@ -155,6 +164,7 @@ MIT License - Feel free to use, modify, and share.
 ## Contributing
 
 Contributions welcome! Feel free to:
+
 - Improve prompt effectiveness
 - Add new supporting materials
 - Fix issues or typos

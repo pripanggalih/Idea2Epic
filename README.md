@@ -1,4 +1,4 @@
-# Product Dev Workflow
+# Idea to Epic Workflow AI Prompts
 
 Kumpulan prompt AI untuk mengubah ide menjadi Epic & Story yang siap dikembangkan. Bisa digunakan di platform AI manapun (Perplexity, Google Gems, ChatGPT, Claude, dll).
 
@@ -50,17 +50,18 @@ product-dev-workflow/
 
 ## 5 Agent
 
-| # | Agent | Peran | Fungsi |
-|---|-------|-------|--------|
-| 1 | **Brainstorming** | Fasilitator Kreatif | Mengeksplorasi ide, mengidentifikasi peluang |
-| 2 | **Product Brief** | Business Analyst | Mendefinisikan masalah, solusi, metrik sukses |
-| 3 | **PRD** | Product Manager | Mendokumentasikan kebutuhan (FR/NFR) |
-| 4 | **Architecture** | Software Architect | Mendesain solusi teknis |
-| 5 | **Epics & Stories** | Product Owner | Membuat story yang siap implementasi |
+| #   | Agent               | Peran               | Fungsi                                        |
+| --- | ------------------- | ------------------- | --------------------------------------------- |
+| 1   | **Brainstorming**   | Fasilitator Kreatif | Mengeksplorasi ide, mengidentifikasi peluang  |
+| 2   | **Product Brief**   | Business Analyst    | Mendefinisikan masalah, solusi, metrik sukses |
+| 3   | **PRD**             | Product Manager     | Mendokumentasikan kebutuhan (FR/NFR)          |
+| 4   | **Architecture**    | Software Architect  | Mendesain solusi teknis                       |
+| 5   | **Epics & Stories** | Product Owner       | Membuat story yang siap implementasi          |
 
 ## Cara Penggunaan
 
 ### Langkah 1: Brainstorming
+
 ```
 1. Siapkan Brainstorming Agent di platform AI
 2. Berikan ide atau masalah awal
@@ -69,6 +70,7 @@ product-dev-workflow/
 ```
 
 ### Langkah 2: Product Brief
+
 ```
 1. Siapkan Product Brief Agent
 2. Tempel output brainstorming
@@ -77,6 +79,7 @@ product-dev-workflow/
 ```
 
 ### Langkah 3: PRD
+
 ```
 1. Siapkan PRD Agent
 2. Tempel Product Brief
@@ -85,6 +88,7 @@ product-dev-workflow/
 ```
 
 ### Langkah 4: Architecture
+
 ```
 1. Siapkan Architecture Agent
 2. Tempel PRD
@@ -93,6 +97,7 @@ product-dev-workflow/
 ```
 
 ### Langkah 5: Epics & Stories
+
 ```
 1. Siapkan Epics & Stories Agent
 2. Tempel PRD dan dokumen Architecture
@@ -103,24 +108,28 @@ product-dev-workflow/
 ## Setup Platform
 
 ### Google Gems
+
 1. Gemini → Gems → Create Gem
 2. Tempel konten prompt ke Instructions
 3. (Opsional) Tambahkan file supporting
 4. Simpan dan gunakan
 
 ### Perplexity
+
 1. Mulai percakapan baru
 2. Lampirkan atau tempel file prompt
 3. (Opsional) Lampirkan file supporting
 4. Mulai sesi
 
 ### ChatGPT
+
 1. Explore GPTs → Create
 2. Tempel prompt ke Instructions
 3. (Opsional) Upload file supporting ke Knowledge
 4. Publish dan gunakan
 
 ### Claude
+
 1. Projects → New Project
 2. Tambahkan prompt ke Project Knowledge
 3. (Opsional) Tambahkan file supporting
@@ -138,13 +147,13 @@ product-dev-workflow/
 
 Setiap agent memiliki file supporting dengan konteks tambahan:
 
-| Agent | File Supporting | Berisi |
-|-------|-----------------|--------|
-| Brainstorming | `01-brainstorming-techniques.md` | SCAMPER, Six Hats, Mind Mapping |
-| Product Brief | `02-product-brief-questions.md` | Pertanyaan discovery, metrik |
-| PRD | `03-prd-requirements-framework.md` | Template FR/NFR, user stories |
-| Architecture | `04-architecture-decision-framework.md` | Template ADR, evaluasi teknologi |
-| Epics & Stories | `05-epics-stories-guide.md` | Penulisan story, APA vs BAGAIMANA |
+| Agent           | File Supporting                         | Berisi                            |
+| --------------- | --------------------------------------- | --------------------------------- |
+| Brainstorming   | `01-brainstorming-techniques.md`        | SCAMPER, Six Hats, Mind Mapping   |
+| Product Brief   | `02-product-brief-questions.md`         | Pertanyaan discovery, metrik      |
+| PRD             | `03-prd-requirements-framework.md`      | Template FR/NFR, user stories     |
+| Architecture    | `04-architecture-decision-framework.md` | Template ADR, evaluasi teknologi  |
+| Epics & Stories | `05-epics-stories-guide.md`             | Penulisan story, APA vs BAGAIMANA |
 
 Melampirkan file-file ini meningkatkan kualitas output, tapi opsional.
 
@@ -155,6 +164,7 @@ MIT License - Bebas digunakan, dimodifikasi, dan dibagikan.
 ## Kontribusi
 
 Kontribusi sangat diterima! Silakan:
+
 - Tingkatkan efektivitas prompt
 - Tambahkan materi supporting baru
 - Perbaiki issue atau typo
