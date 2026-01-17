@@ -2,8 +2,6 @@
 
 Kumpulan prompt AI untuk mengubah ide menjadi Epic & Story yang siap dikembangkan. Bisa digunakan di platform AI manapun (Perplexity, Google Gems, ChatGPT, Claude, dll).
 
-> 🌐 [English version](README.en.md)
-
 ## Gambaran Umum
 
 ```
@@ -107,33 +105,15 @@ product-dev-workflow/
 
 ## Setup Platform
 
-### Google Gems
+Pilih platform yang Anda gunakan, lalu ikuti panduan lengkapnya:
 
-1. Gemini → Gems → Create Gem
-2. Tempel konten prompt ke Instructions
-3. (Opsional) Tambahkan file supporting
-4. Simpan dan gunakan
+| Platform | Panduan |
+|----------|---------|
+| Perplexity | [SETUP-PERPLEXITY.md](SETUP-PERPLEXITY.md) |
+| Google Gemini | [SETUP-GEMINI.md](SETUP-GEMINI.md) |
+| ChatGPT | [SETUP-CHATGPT.md](SETUP-CHATGPT.md) |
 
-### Perplexity
-
-1. Mulai percakapan baru
-2. Lampirkan atau tempel file prompt
-3. (Opsional) Lampirkan file supporting
-4. Mulai sesi
-
-### ChatGPT
-
-1. Explore GPTs → Create
-2. Tempel prompt ke Instructions
-3. (Opsional) Upload file supporting ke Knowledge
-4. Publish dan gunakan
-
-### Claude
-
-1. Projects → New Project
-2. Tambahkan prompt ke Project Knowledge
-3. (Opsional) Tambahkan file supporting
-4. Mulai percakapan
+> **Tip:** Panduan di atas berisi langkah-langkah detail dengan gambar alur kerja, cocok untuk pemula.
 
 ## Fitur
 
